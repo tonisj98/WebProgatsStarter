@@ -1,0 +1,35 @@
+:root{
+    --primary: #f2b366;
+}
+header{
+    padding: 2ch;
+}
+.header-title{
+    font-size: 30px;
+    color: orange;
+    text-shadow: 1px 1px black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu--item{
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: #3f2f21;
+    color: var(--primary);
+    border-radius: 14px;
+    width: 100px;
+    text-align: center;
+}
+header{
+    background-color: rgb(190, 183, 171);
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
