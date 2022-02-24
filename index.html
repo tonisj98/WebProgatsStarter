@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width:992px)">
+
+    <!-- <link rel="stylesheet" href="print.css" media="print"> -->
 </head>
 
 <body>
@@ -21,8 +24,8 @@
     <section class="hero">
         <p>¡Un hogar para cada gatito!</p>
     </section>
+    <h2 class="members--title">Equipo</h2>
     <section class="members">
-        <h2 class="members--title">Equipo</h2>
         <article class="members--card card__patricia">
             <h3 class="members--name">Patricia</h3>
             <p class="members--role">Fundadora</p>
@@ -36,9 +39,16 @@
             <p class="members--role">Voluntaria</p>
         </article>
     </section>
-    <footer>
-        <p>PROGAT es una asociación sín ánimo de lucro. Apóyanos con una donación. Muchas gracias!</p>
+    <footer class="footer">
+        <p class="footer--description">PROGAT es una asociación sín ánimo de lucro. Apóyanos con <strong>
+                <a class="footer--link" href="https://www.progatslagarriga.com">una
+                    donación</a>
+            </strong>. ¡Muchas
+            gracias!</p>
     </footer>
+    <div id="swipeUp">
+        <a href="#top"><img src="./img/paw.png" alt="swipe up arrow"></a>
+    </div>
 
 </body>
 
